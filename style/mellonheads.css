@@ -9,7 +9,6 @@ nav {
   height: 50px;
   padding: 12px 0px;
   color: #FFF;
-  background-color: #2F2F2F;
   z-index: 1000; }
   nav span {
     position: absolute;
@@ -54,6 +53,13 @@ nav {
   margin: 0px auto;
   padding: 30px 0px; }
 
+.link {
+  display: inline;
+  width: 0px;
+  height: 0px;
+  position: relative;
+  top: -59px; }
+
 .button {
   display: block;
   height: 50px;
@@ -71,21 +77,21 @@ nav {
   color: #FFF;
   text-decoration: none; }
 
-#home {
+.home {
   background: -webkit-linear-gradient(#8FCE03, #EE4154);
   background: -o-linear-gradient(#8FCE03, #EE4154);
   background: -moz-linear-gradient(#8FCE03, #EE4154);
   background: linear-gradient(#8FCE03, #EE4154);
   color: #FFF; }
-  #home .wrapper {
+  .home .wrapper {
     padding: 200px 0px; }
-  #home h1 {
+  .home h1 {
     display: block;
     text-align: center;
     margin: 0px;
     font-size: 70px;
     color: #FFF; }
-  #home span {
+  .home span {
     display: block;
     text-align: center;
     font-weight: bold;
@@ -93,48 +99,58 @@ nav {
     color: #FFF;
     margin: 0px; }
 
-#about {
+.about {
   border-bottom: 5px solid #EE4154; }
-  #about .wrapper {
+  .about .wrapper {
     width: 700px; }
-  #about .about-block {
+  .about .about-block {
     float: left;
     width: 400px;
     margin-bottom: 100px; }
-  #about .first {
+  .about .first {
     padding-right: 100px; }
-  #about .first h2, #about .first p {
+  .about .first h2, .about .first p {
     text-align: right; }
-  #about .second {
+  .about .second {
     padding-left: 100px; }
-  #about .second h2, #about .second p {
+  .about .second h2, .about .second p {
     text-align: left; }
-  #about .image {
+  .about .image {
     float: left;
-    width: 200px;
-    height: 200px;
-    background-color: #CCC;
-    margin-bottom: 100px; }
-  #about h2 {
+    width: 180px;
+    height: 180px;
+    background-size: 180px 180px;
+    margin-bottom: 100px;
+    border-radius: 200px;
+    border: 10px solid #CCC; }
+  .about .melon {
+    background-image: url("../assets/melon-head.jpg"); }
+  .about .code {
+    background-image: url("../assets/code.jpg"); }
+  .about h2 {
     color: #EE4154;
     margin: 0px;
     font-size: 23px; }
-  #about p {
+  .about p {
     float: left;
     width: 400px; }
 
-#goals .goals-block {
+.goals .goals-block {
   float: left;
   width: 350px;
   padding: 0px 25px;
   margin-bottom: 50px; }
-  #goals .goals-block .icon {
+  .goals .goals-block .icon {
     width: 150px;
     height: 150px;
     margin: 0px auto 30px auto;
     background-color: #8FCE03;
-    border-radius: 150px; }
-  #goals .goals-block h3 {
+    border-radius: 150px;
+    text-align: center;
+    line-height: 150px;
+    font-size: 75px;
+    color: #FFF; }
+  .goals .goals-block h3 {
     float: left;
     display: block;
     width: 100%;
@@ -142,18 +158,18 @@ nav {
     margin: 0px;
     color: #EE4154;
     font-size: 20px; }
-  #goals .goals-block p {
+  .goals .goals-block p {
     margin-top: 5px;
     float: left;
     width: 350px;
     text-align: center; }
 
-#join {
+.join {
   background-color: #EE4154;
   color: #FFF; }
-  #join h1 {
+  .join h1 {
     color: #FFF; }
-  #join span {
+  .join span {
     margin-bottom: 0px; }
 
 /*# sourceMappingURL=mellonheads.css.map */

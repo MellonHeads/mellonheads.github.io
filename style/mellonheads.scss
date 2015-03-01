@@ -22,7 +22,6 @@ nav {
 	height: 50px;
 	padding: 12px 0px;
 	color: #FFF;
-	background-color: $grayColor;
 	z-index: 1000;
 
 	span {
@@ -80,6 +79,14 @@ nav {
 	padding: 30px 0px;
 }
 
+.link {
+	display: inline;
+	width: 0px;
+	height: 0px;
+	position: relative;
+	top: -59px;
+}
+
 .button {
 		display: block;
 		height: 50px;
@@ -99,7 +106,7 @@ nav {
 	text-decoration: none;
 }
 
-#home {
+.home {
 	@include gradientBackground($darkGreenColor, $redColor);
 	color: #FFF;
 	
@@ -127,7 +134,7 @@ nav {
 	
 }
 
-#about {
+.about {
 	border-bottom: 5px solid $redColor;
 
 	.wrapper {
@@ -159,10 +166,20 @@ nav {
 
 	.image {
 		float: left;
-		width: 200px;
-		height: 200px;
-		background-color: #CCC;
+		width: 180px;
+		height: 180px;
+		background-size: 180px 180px;
 		margin-bottom: 100px;
+		border-radius: 200px;
+		border: 10px solid #CCC;
+	}
+
+	.melon {
+		background-image: url("../assets/melon-head.jpg");
+	}
+
+	.code {
+		background-image: url("../assets/code.jpg");
 	}
 
 	h2 {
@@ -177,7 +194,7 @@ nav {
 	}
 }
 
-#goals {
+.goals {
 	.goals-block {
 		float: left;
 		width: 350px;
@@ -190,6 +207,10 @@ nav {
 			margin: 0px auto 30px auto;
 			background-color: $darkGreenColor;
 			border-radius: 150px;
+			text-align: center;
+			line-height: 150px;
+			font-size: 75px;
+			color: #FFF;
 		}
 
 		h3 {
@@ -212,7 +233,7 @@ nav {
 
 }
 
-#join {
+.join {
 	background-color: $redColor;
 	color: #FFF;
 
