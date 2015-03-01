@@ -2,40 +2,97 @@
 <html>
 
 <head>
-     <title>MellonHeads | Home</title>
-     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
-     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
-     <link href="css/flat-ui.css" rel="stylesheet">
-     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<title>MellonHeads</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/mellonheads.js"></script>
+	<!--	<script type="text/javascript" src="js/jquery.smint.js"></script>-->
+	<link rel="stylesheet" type="text/css" href="style/normalize.css">
+	<link rel="stylesheet" type="text/css" href="style/mellonheads.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
-
 <body>
-     <script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-     <div class="col-md-12">
-          <nav class="navbar navbar-default navbar-embossed" role="navigation">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
-                <span class="sr-only">Toggle navigation</span>
-              </button>
-              <a class="navbar-brand" href="#">MellonHeads</a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar-collapse-01">
-              <ul class="nav navbar-nav navbar-left">
-                <li class="active"><a href="#"><i class="fa fa-home"></i> Home</a></li>
-                <li><a href="#">About Us</a></li>
-               </ul>
-            </div><!-- /.navbar-collapse -->
-          </nav><!-- /navbar -->
-        </div>
-     <div class="container">
-       <div class="jumbotron">
-         <h1>MellonHeads</h1>
-         <p>This is a temporary page while we get the website set up. Visit the Facebook page here:</p>
-         <a class="btn btn-info" href="https://www.facebook.com/groups/423766264446358/"><i class="fa fa-facebook"></i> Facebook</a>
-       </div>
-     </div>
+	<nav class="navigation">
+		<div class="wrapper">
+			<span>CARNEGIE MELLON UNIVERSITY</span>
+			<div class="navwrap">
+				<a href="#home">HOME</a>
+				<a href="#about">ABOUT</a>
+				<a href="#goals">GOALS</a>
+				<a href="#join">JOIN</a>
+				<a href="https://www.facebook.com/groups/423766264446358/">FACEBOOK</a>
+			</div>
+		</div>
+	</nav>
+	<div class="section home">
+		<a class="link" id="home"></a>
+		<div class="wrapper">
+			<h1>MELLONHEADS</h1>
+			<span>We are a hacker community.</span>
+			<a class="button" href="#join">GET INVOLVED</a>
+		</div>
+	</div>
+	<div class="section about">
+		<a class="link" id="about"></a>
+		<div class="wrapper">
+			<h1>ABOUT</h1>
+			<span>Join hte MellonHeads public Facebook group for more info!</span>
+			<div class="about-block first">
+				<h2>WHAT IS A MELLONHEAD?</h2>
+				<p>A Mellonhead is a doer, a maker, an artist, a programmer, a
+				hacker. A MallonHead is someone who makes cool things.
+				MellonHeads is a community of students at Carnegie Mellon
+				University who collaborate on cool projects and enjoy learning
+				from one another</p>
+			</div>
+			<div class="image melon"></div>
+			<div class="image code"></div>
+			<div class="about-block second">
+				<h2>WHAT DO MELLONHEADS DO?</h2>
+				<p>MellonHeads hosts regular CollabNights which are like mini
+				hackathons on CMU's campus. CollabNights are a great time for
+				MellonHeads to come together and discuss current projects,
+				collaborate on said projects, and just hang out and talk about
+				how cool others' projects are.</p>
+			</div>
+		</div>
+	</div>
+	<div class="section goals">
+		<a class="link" id="goals"></a>
+		<div class="wrapper">
+			<h1>GOALS</h1>
+			<span>We bring together students from all disciplines interested in
+			the intersection between education and technology.</span>
+			<div class="goals-block">
+				<div class="icon"><i class="fa fa-users"></i></div>
+				<h3>Collaboration</h3>
+				<p>Students from different backgrounds and majors come together
+				to work on projects and discuss current news surrounding technology.</p>
+			</div>
+			<div class="goals-block">
+				<div class="icon"><i class="fa fa-cogs"></i></div>
+				<h3>Technology</h3>
+				<p>MellonHeads are constantly experimenting with cutting edge
+				hardware and software, gaining valuable experience with tomorrow's
+				technology.</p>
+			</div>
+			<div class="goals-block">
+				<div class="icon"><i class="fa fa-graduation-cap"></i></div>
+				<h3>Outreach</h3>
+				<p>MellonHeads welcomes members of all experience levels and 
+				backgrounds. We're here to help you make super cool stuff whether
+				you're a bginner or super 1337 haxor.</p>
+			</div>
+		</div>
+	</div>
+	<div class="section join">
+		<a class="link" id="join"></a>
+		<div class="wrapper">
+			<h1>GET INVOLVED</h1>
+			<span>Joining is easy. You're already in. Just head over the the Facebook
+			page to get in on the action.</span>
+			<a class="button" href="https://www.facebook.com/groups/423766264446358/">FACEBOOK</a>
+		</div>
+	</div>
 </body>
-
 </html>
