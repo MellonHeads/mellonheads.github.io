@@ -7,7 +7,8 @@ Current design is thanks to Tiffany Jiang, which was coded by William Ganucheau 
 
 ### Contributing
 
-Pull requests are _very_ welcome :-)
+Pull requests are _very_ welcome :-) Take a look at the issues tab to the left
+for some ideas on getting started.
 
 Some quick steps to get you started:
 
