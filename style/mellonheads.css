@@ -9,7 +9,8 @@ nav {
   height: 50px;
   padding: 12px 0px;
   color: #FFF;
-  z-index: 1000; }
+  z-index: 1000;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; }
   nav span {
     position: absolute;
     left: 0px;
@@ -39,12 +40,14 @@ nav {
     color: #EE4154;
     font-size: 40px;
     margin-bottom: 15px;
-    text-align: center; }
+    text-align: center;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; }
   .section span {
     display: block;
     font-size: 18px;
     text-align: center;
-    margin-bottom: 75px; }
+    margin-bottom: 75px;
+    font-family: "Roboto Slab", "Helvatica Neue", Helvetica, Arial, sans-serif; }
 
 .wrapper {
   position: relative;
@@ -65,7 +68,7 @@ nav {
   height: 50px;
   width: 150px;
   margin: 20px auto;
-  background-color: #8FCE03;
+  background-color: #C8C443;
   border-radius: 3px;
   line-height: 50px;
   text-align: center;
@@ -78,10 +81,10 @@ nav {
   text-decoration: none; }
 
 .home {
-  background: -webkit-linear-gradient(#8FCE03, #EE4154);
-  background: -o-linear-gradient(#8FCE03, #EE4154);
-  background: -moz-linear-gradient(#8FCE03, #EE4154);
-  background: linear-gradient(#8FCE03, #EE4154);
+  background: -webkit-linear-gradient(#C8C443, #EE4154);
+  background: -o-linear-gradient(#C8C443, #EE4154);
+  background: -moz-linear-gradient(#C8C443, #EE4154);
+  background: linear-gradient(#C8C443, #EE4154);
   color: #FFF; }
   .home .wrapper {
     padding: 200px 0px; }
@@ -89,15 +92,15 @@ nav {
     display: block;
     text-align: center;
     margin: 0px;
-    font-size: 70px;
+    font-size: 75px;
     color: #FFF; }
   .home span {
     display: block;
     text-align: center;
-    font-weight: bold;
-    font-size: 37px;
+    font-size: 33px;
     color: #FFF;
-    margin: 0px; }
+    margin: 0px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 .about {
   border-bottom: 5px solid #EE4154; }
@@ -120,9 +123,9 @@ nav {
     width: 180px;
     height: 180px;
     background-size: 180px 180px;
-    margin-bottom: 100px;
+    margin-bottom: 130px;
     border-radius: 200px;
-    border: 10px solid #CCC; }
+    border: 10px solid #DDD; }
   .about .melon {
     background-image: url("../assets/melon-head.jpg"); }
   .about .code {
@@ -130,10 +133,12 @@ nav {
   .about h2 {
     color: #EE4154;
     margin: 0px;
-    font-size: 23px; }
+    font-size: 23px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; }
   .about p {
     float: left;
-    width: 400px; }
+    width: 400px;
+    line-height: 23px; }
 
 .goals .goals-block {
   float: left;
@@ -144,7 +149,7 @@ nav {
     width: 150px;
     height: 150px;
     margin: 0px auto 30px auto;
-    background-color: #8FCE03;
+    background-color: #C8C443;
     border-radius: 150px;
     text-align: center;
     line-height: 150px;
@@ -157,12 +162,14 @@ nav {
     text-align: center;
     margin: 0px;
     color: #EE4154;
-    font-size: 20px; }
+    font-size: 20px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; }
   .goals .goals-block p {
     margin-top: 5px;
     float: left;
     width: 350px;
-    text-align: center; }
+    text-align: center;
+    line-height: 23px; }
 
 .join {
   background-color: #EE4154;
@@ -171,5 +178,10 @@ nav {
     color: #FFF; }
   .join span {
     margin-bottom: 0px; }
+  .join .copy {
+    margin-top: 20px;
+    height: 40px;
+    font-size: 15px;
+    line-height: 40px; }
 
 /*# sourceMappingURL=mellonheads.css.map */
