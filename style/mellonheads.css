@@ -19,6 +19,11 @@ nav {
     line-height: 50px;
     font-weight: bold;
     font-size: 20px; }
+  nav span img {
+    
+    margin-left:10px;
+    margin-top:2px;
+  }
   nav .navwrap {
     position: absolute;
     right: 0px;
