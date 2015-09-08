@@ -140,36 +140,38 @@ nav {
     width: 400px;
     line-height: 23px; }
 
-.goals .goals-block {
-  float: left;
-  width: 350px;
-  padding: 0px 25px;
-  margin-bottom: 50px; }
-  .goals .goals-block .icon {
-    width: 150px;
-    height: 150px;
-    margin: 0px auto 30px auto;
-    background-color: #C8C443;
-    border-radius: 150px;
-    text-align: center;
-    line-height: 150px;
-    font-size: 75px;
-    color: #FFF; }
-  .goals .goals-block h3 {
-    float: left;
-    display: block;
-    width: 100%;
-    text-align: center;
-    margin: 0px;
+.goals_wrapper {
+  margin-left:5%;
+  margin-right:5%;
+}
+.goals .column-left {
+  float:left;
+  width:33%;
+  text-align:center;
+  }
+.goals .column-middle{
+  display:inline-block;
+  width:33%;
+  text-align:center;
+   }
+.goals .column-right {
+  float:right;
+  text-align:center;
+  width:33%;
+}
+.goals .icon {
+    color: #C8C443;
+
+ }
+.goals  h3 {
     color: #EE4154;
     font-size: 20px;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-  .goals .goals-block p {
-    margin-top: 5px;
-    float: left;
-    width: 350px;
-    text-align: center;
-    line-height: 23px; }
+.goals p {
+    margin-left:4%;
+    margin-right:4%;
+    line-height: 23px; 
+  }
 
 .join {
   background-color: #EE4154;
@@ -183,5 +185,21 @@ nav {
     height: 40px;
     font-size: 15px;
     line-height: 40px; }
+
+/*Responsive*/
+@media (max-width:740px){
+.goals .column-left { 
+  float:left; 
+  text-align:center;
+    width:100%; }
+.goals .column-middle{ 
+    display:inline-block;
+    text-align:center;
+    width:100%; }
+.goals .column-right{ 
+    float:right; 
+    text-align:center;
+    width:100%; }
+}
 
 /*# sourceMappingURL=mellonheads.css.map */
