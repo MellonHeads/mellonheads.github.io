@@ -158,7 +158,7 @@ nav {
   text-align:center;
   }
 .goals .column-middle{
-  display:inline-block;
+  float:left;
   width:33%;
   text-align:center;
    }
@@ -201,7 +201,7 @@ nav {
   text-align:center;
     width:100%; }
 .goals .column-middle{ 
-    display:inline-block;
+    float:left;
     text-align:center;
     width:100%; }
 .goals .column-right{ 
