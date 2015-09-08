@@ -11,6 +11,9 @@ nav {
   color: #FFF;
   z-index: 1000;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+.navwrap a:hover {
+  color: #EE4154;
+}
   nav span {
     position: absolute;
     left: 0px;
