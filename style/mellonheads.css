@@ -187,7 +187,7 @@ nav {
     line-height: 40px; }
 
 /*Responsive*/
-@media (max-width:680px){
+@media (max-width:740px){
 .goals .column-left { 
   float:left; 
   text-align:center;
