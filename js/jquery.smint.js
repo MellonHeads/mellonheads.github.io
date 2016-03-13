@@ -35,7 +35,7 @@ If you like Smint, or have suggestions on how it could be improved, send me a tw
 			menuHeight = $(".smint").height(),
 			smint = $('.smint'),
         	smintA = $('.smint a'),
-        	myOffset = smint.height();
+        	myOffset = 50;//smint.height();
 
       
 
