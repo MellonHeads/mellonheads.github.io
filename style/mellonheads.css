@@ -260,6 +260,7 @@ nav {
     .calendar iframe{
         display: block;
         margin: auto;
+        padding-bottom: 30px;
     }
 
 .footer{
