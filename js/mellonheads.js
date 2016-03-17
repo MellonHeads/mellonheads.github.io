@@ -16,6 +16,10 @@ $(document).ready(function() {
     
     $(".button").click(function(){
         $(".moreevents").toggle();
+        $(".lessevents").toggle();
     });
 
+    $(".menubutton").click(function(){
+        $(".menulinks").toggle();
+    });
 });

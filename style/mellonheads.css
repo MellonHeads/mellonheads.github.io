@@ -1,5 +1,7 @@
+@media (min-width:740px){
 body {
-  color: #666; }
+  color: #666; 
+}
 
 nav {
   background-color: #FFF;
@@ -29,7 +31,7 @@ nav {
   }
   nav .navwrap {
     position: absolute;
-    right: 0px;
+    right: 10px;
     top: 12px; }
     nav .navwrap a {
       display: inline-block;
@@ -40,6 +42,19 @@ nav {
       text-decoration: none;
       margin-left: 15px;
       font-weight: bold; }
+    nav .navwrap ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav .navwrap li {
+    display: inline;
+    }
+    
+    nav .menubutton{
+        display: none;
+    }
 
 .section {
   float: left;
@@ -244,6 +259,7 @@ nav {
 
 .calendar{
     padding-bottom: 0px;
+    color: black;
 }
 
     .calendar span{
@@ -282,20 +298,314 @@ nav {
         padding-bottom: 20px;
         width: 22%;
     }
-/*Responsive*/
-@media (max-width:740px){
-.goals .column-left { 
-  float:left; 
-  text-align:center;
-    width:100%; }
-.goals .column-middle{ 
-    float:left;
-    text-align:center;
-    width:100%; }
-.goals .column-right{ 
-    float:right; 
-    text-align:center;
-    width:100%; }
 }
+
+@media (max-width:740px){
+body {
+  color: #666; 
+}
+
+nav {
+  background-color: #FFF;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 50px;
+  padding: 12px 0px;
+  color: #FFF;
+  z-index: 1000;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+.navwrap a:hover {
+  color: #EE4154;
+}
+
+  nav span {
+    left: 0px;
+    top: 0px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 20px; }
+  nav span img {
+    height: 50px;
+    padding-left: 1vw;
+  }
+  nav .navwrap {
+    width: 200px;
+    position: absolute;
+    right: 0px;
+    top: 0px; }
+    nav .navwrap a {
+      display: inline-block;
+      padding: 10px;
+      height: 30px;
+      line-height: 30px;
+      color: #000;
+      text-decoration: none;
+      margin-left: 15px;
+      font-weight: bold; }
+    nav .navwrap ul{
+        list-style: none;
+        height: auto;
+        display: none;
+        margin-top: 74px;
+        padding-right: 20px;
+    }
+    nav .navwrap ul li{
+        width: 140px;
+        float: none;
+        background-color: white;
+        border-color: #EE4154;
+        border-style: solid;
+        border-width: 1px;
+        border-top-width: 0px;
+    }
+    
+    nav .menubutton{
+        position: absolute;
+        right: 19px;
+        top:0px;
+    }
+
+.section {
+  float: left;
+  width: 100%; 
+}
+  .section h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .section span {
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 75px;
+    font-family: "Roboto Slab", "Helvatica Neue", Helvetica, Arial, sans-serif; }
+
+.wrapper {
+  position: relative;
+  height: 100%;
+  margin: 0px auto;
+  padding: 30px 0px; }
+
+.wrapper img{
+    width: 100%;
+}
+
+.section a {
+  color: #FFF;
+}
+
+.home {
+    background: #FFF;
+    color: #FFF; 
+}
+    .home .wrapper {
+        padding: 0px 0px;
+        margin-bottom: -4px;
+    }
+    
+    .home .wrapper img{
+        margin-top: 70px;
+    }
+    
+    .home h1 {
+        display: block;
+        text-align: center;
+        margin: 0px;
+        font-size: 75px;
+        color: #FFF; 
+    }
+    .home span {
+        display: block;
+        text-align: center;
+        font-size: 33px;
+        color: #FFF;
+        margin: 0px;
+        font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    }
+
+.about {
+    color: #FFF;
+    background-color: #EE4154;
+    border-bottom: 50px solid #EE4154; 
+}
+    .about .wrapper {
+        width: 80%; 
+    }
+    .about h2 {
+        margin: 0px;
+        font-size: 23px;
+        font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    }
+    .about p {
+        float: left;
+        width: 100%;
+        line-height: 23px; 
+    }
+
+.events{
+    color: #FFF;
+    padding-bottom: 50px;
+    font-size: 3vw;
+}
+
+    .events h1 {
+        color: black;
+    }
+
+    .event{
+        height: 35vw;
+        border-radius: 5px;
+        background-color: #444;
+        color: #FFF;
+        margin: auto;
+        width: 80%;
+        margin-bottom: 20px;
+        box-shadow: 2px 4px 10px black;
+    }
+
+    .event a{
+        width: inherit;
+        height: inherit;
+    }
+
+    .event img{
+        display: block;
+        margin: auto;
+        padding-top: 3%;
+        height: 70%;
+        width: 90%;
+    }
+
+    .event p{
+        margin-top: 0px;
+        margin-left: 5%;
+    }
+
+    .date{
+        font-size: 2vw;
+    }
+
+    .events .more{
+        display: block;
+        margin: auto;
+        width: 100px;
+        text-align: center;
+        color: black;
+        text-decoration: underline;
+    }
+
+    .events a{
+        position: absolute;
+        margin-top: 10px;
+        color: black;
+    }
+
+    .moreevents{
+        display: none;
+    }
+
+.partners {
+    background-color: #EEE;
+    color: #000;
+    padding-bottom: 50px;
+}
+
+    .partners h3{
+        padding-left: 3%;
+    }
+
+    .partners img{
+        padding-left: 3%;
+        padding-right: 3%;
+        height: 10vw;
+    }
+
+.team {
+    background-color: #EE4154;
+    color: #FFF;
+    padding-bottom: 50px;
+}
+
+    .team .boardmember{
+        width: 30%;
+        display: inline-block;
+        margin-bottom: 2vw;
+    }
+
+    .team .Russell{
+        color:black;
+    }
+
+    .team img{
+        width: 13vw;
+        margin-left: 45%;
+        border-radius: 5px;
+        border-color: #FFF;
+        border-style: solid;
+        border-width: 2px;
+        height: 13vw;
+    }
+
+    .team .position{
+       font-size: 0px;
+    }
+
+    .team .name{
+        font-size: 0px;
+    }
+
+    .team .quote{
+        font-size: 0px;
+    }
+
+.calendar{
+    padding-bottom: 0px;
+    color: black;
+}
+
+    .calendar span{
+        padding-top: 30px;
+    }
+
+    .calendar p{
+        width: 40%;
+        display: block;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+    .calendar iframe{
+        display: block;
+        margin: auto;
+        padding-bottom: 30px;
+        width: 90vw;
+        height: 90vw;
+    }
+
+.footer{
+    color: #FFF;
+    background-color: #333;
+}
+
+    .footer .footer_pics{
+        display: block;
+        margin: 0 auto;
+        width: 30%;
+    }
+
+    .footer img{
+        display: inline-block;
+        padding-left: 5%;
+        padding-right: 4%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 22%;
+    }
+}
+
 
 /*# sourceMappingURL=mellonheads.css.map */
